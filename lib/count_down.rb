@@ -3,8 +3,8 @@
 count = 10 
 magic_number = 0 
 
-while count <= 11 do 
-  break if count <= 1 
+while count > 0 do 
+  break if count <= 0 
   count -= 1 
   puts count
 end
